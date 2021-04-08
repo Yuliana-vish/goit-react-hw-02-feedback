@@ -39,7 +39,7 @@ class Feedback extends Component {
               bad={this.state.bad}
               total={this.countTotalFeedback()}
               positivePercentage={this.countPositiveFeedbackPercentage()}
-            ></Statistics>
+            />
           ) : (
             <Notification title={'No feedback given'} />
           )}
